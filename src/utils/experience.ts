@@ -3,7 +3,7 @@ import cps from '../assets/images/profile/cps.png'
 
 export const Experience = [
     {
-        id: 1, company: "Indo prima Perkasa", title: "Staff IT", masaKerja: `Hingga Saat ini`, masukKerja: '2021-11-01', status:"Karyawan Tetap", jobDesk: [
+        id: 1, company: "Indo Prima Perkasa", title: "Staff IT", masaKerja: `Hingga Saat ini`, masukKerja: '2021-11-01', status:"Karyawan Tetap", jobDesk: [
             "Pengembangan Aplikasi Kupon, menggunakan Express untuk mengembangkan backend aplikasi kupon, dan React Native untuk merancang dan mengimplementasikan antarmuka pengguna yang responsif",
             "Membuat sistem laporan penjualan mingguan untuk memantau dan menganalisis plan Produksi bulan depan",
             "Menangani perbaikan komputer, printer, dan mesin fotokopi perusahaan",
