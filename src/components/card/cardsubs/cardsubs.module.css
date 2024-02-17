@@ -1,0 +1,44 @@
+.div {
+    max-width: 400px;
+    margin: 25px 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.input,
+.textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input[type="submit"] {
+    background-color: var(--div--container);
+    color: var(--text);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input[type="submit"]:hover {
+    background-color: var(--div--container--secondary);
+}
+
+/* Tambahkan gaya tambahan sesuai kebutuhan Anda */

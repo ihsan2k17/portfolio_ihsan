@@ -1,0 +1,411 @@
+.containerprofile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 25px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.cardprofile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1246px;
+    width: 100%;
+}
+
+.cardnameprofile {
+    flex-wrap: wrap;
+    max-width: 650px;
+    width: 100%;
+    padding-top: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+.cardnameprofile h1 {
+    font-size: 45px;
+    transition: 0.3s ease-in-out;
+}
+
+.cardnameprofile p {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+.cardname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.cardname span{
+    display: inline;
+    color: var(--div--container);
+    transition: 0.3s ease-in-out;
+}
+
+.cardsocmed {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.cardsocmedimg{
+    height: 50px;
+    transition: transfrom 0.3s ease-in-out;
+}
+
+.cardsocmedimg:hover {
+    transform: rotate(-360deg) translateZ(0);    
+}
+
+.buttonhire {
+    background-color: var(--div--container);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 80px;
+    transition: 0.3s ease-in-out;
+    scale: 0.9;
+}
+
+.buttonhire:hover {
+    scale: 1;
+}
+
+.buttonhire h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cardarrowright {
+    justify-content: center;
+    align-items:center;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.cardarrowright:hover {
+    opacity: 1;
+    z-index: 1;
+}
+.faarrowright {
+    color: var(--container--background);
+}
+
+.cardimgprofile {
+    max-width: 546px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.cardimg {
+    max-width: 546px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.cardselfdescription {
+    max-width: 623px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.cardselfdescription .cardcontainerselfdescription {
+    background-color: var(--container--background);
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+
+.cardanimation1 {
+    max-width: 150px;
+    width: 100%;
+}
+
+.cardtitleworking {
+    border-color: var(--div--container--secondary);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 5px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.cardtitleworking p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.cardexperton {
+    color: var(--div--container--secondary);
+}
+
+.cardbased {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.cardcv {
+    color: var(--div--container--secondary);
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center ;
+    gap: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.cardcv h1{
+    font-weight: 500;
+}
+
+.cardcv:hover h1{
+    text-decoration: underline;
+}
+.cvlogos{
+    transform: rotate(-90deg);
+    font-size: 20px;
+}
+
+.containeranimation2 {
+    display: flex;
+    max-width: 623px;
+    width: 100%;
+    justify-content: end;
+}
+
+.cardanimation2 {
+    max-width: 150px;
+    width: 100%;
+}
+
+@media screen and (max-width:1580px) and (min-width:760px) {
+    .cardprofile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 1054px;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardnameprofile {
+        display: flex;
+        padding-top: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardnameprofile h1 {
+        font-size: 35px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardnameprofile p {
+        font-size: 24px;
+        font-weight: 400;
+        padding-bottom: 100px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardname {
+        flex-wrap:wrap;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 10;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardsocmed {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardsocmedimg {
+        height: 40px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .buttonhire {
+        background-color: var(--div--container);
+        cursor: pointer;
+        border-radius: 25px;
+        font-size: 23px;
+        font-weight: 500;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        width: 180px;
+        height: 70px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .buttonhire h1 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .cardarrowright {
+        justify-content: center;
+        align-items:center;
+        padding: 12px;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        opacity: 0.6;
+        position: relative;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardselfdescription {
+        display: flex;
+        flex-direction: column;
+        max-width: 527px;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .containerprofile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 25px;
+        transition: 0.3s ease-in-out;
+    }
+    .cardnameprofile {
+        padding-top: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardnameprofile h1 {
+        font-size: 30px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardnameprofile p {
+        font-size: 23px;
+        font-weight: 400;
+        padding-bottom: 100px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardbased {
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .cardnameprofile h1 {
+        font-size: 25px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardnameprofile p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 100px;
+        transition: 0.3s ease-in-out;
+    }
+
+        .cardname {
+            word-wrap: break-word;
+            white-space: pre-line;
+            width: 100%;
+        }
+    
+        .cardname span {
+            word-wrap: break-word;
+            white-space: pre-line;
+            justify-content: center;
+        }
+
+    .cardsocmed {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        margin: 0;
+        gap: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardtitleworking p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .cardbased {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .buttonhire {
+        background-color: var(--div--container);
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 25px;
+        font-weight: 700;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 180px;
+        height: 60px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .buttonhire h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .cardarrowright {
+        justify-content: center;
+        align-items:center;
+        padding: 0 10px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        transition: 0.3s ease-in-out;
+    }
+    .cardarrowright:hover {
+        opacity: 1;
+        z-index: 1;
+    }
+    .faarrowright {
+        color: var(--container--background);
+        height: 20px;
+        width: 20px;
+    }
+}

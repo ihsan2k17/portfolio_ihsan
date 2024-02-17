@@ -1,0 +1,130 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+.h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.p{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.image {
+    max-height: 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cardContent {
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.cardContent:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    scale: 1.05;
+}
+
+.intro {
+    position:absolute;
+    bottom: 20%;
+    right: 5%;
+    left: 5%;
+    width: 90%;
+    background-color: rgba(255, 221, 180, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px rgba(255, 221, 180, 0.5);
+    /* Gunakan gradient sebagai latar belakang */
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.intro:hover {
+    box-shadow: 0 0 10px rgba(255, 221, 180, 1);
+    transition: 0.3s ease-in-out;
+}
+
+.fonts {
+    color: var(--text);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .project {
+        padding: 30px 20px;
+    }
+    .h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 50px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .image {
+        max-height: 400px;
+        max-width: 400px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 50px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cardContent {
+        position: relative;
+        transition: 0.3s ease-in-out;
+        max-width: 340px;
+        max-height: 340px;
+    }
+
+    .image {
+        max-height: 340px;
+        max-width: 340px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+    }
+    .p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .fonts h3{
+        font-size: 15px;
+    }
+}

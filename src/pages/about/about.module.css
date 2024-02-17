@@ -1,0 +1,76 @@
+.containerAbout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px 20px;
+}
+
+.divSocmed {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cardSocmed {
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    padding: 10px 50px;
+    gap: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--div--container--secondary);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.imgSocmed {max-height: 80px;}
+.cardSocmed p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+@media screen and (max-width:1300px) {
+    .divSocmed {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .cardSocmed {
+        display: flex;
+        align-items: center;
+        border-width: 2px;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: var(--div--container--secondary);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .imgSocmed {max-height: 60px;}
+    .cardSocmed p {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--text);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .divSocmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .cardSocmed {align-items: center; justify-content: flex-start;}
+    .imgSocmed { max-height: 30px; padding: 10px 10px;}
+
+}

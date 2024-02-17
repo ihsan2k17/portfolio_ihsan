@@ -1,0 +1,168 @@
+.containerProfile {
+    display: flex;
+    flex-direction: row;
+}
+
+.divProfile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subDivProfile{
+    width: 900px;
+    display: flex;
+    position: relative;
+}
+
+.divImage {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.NameSubName {
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.NameSubName h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--container--background);
+}
+.NameSubName p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--background);
+}
+
+.divDescription {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.divDescription p {
+    font-size: 25px;
+    top: 15%;
+}
+
+.cardCV {
+    color: var(--div--container--secondary);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 30px;
+    margin: 0;
+}
+
+.cardCV h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cardCV:hover h1 {
+    text-decoration: underline;
+}
+
+.cvlogos {
+    transform: rotate(-90deg);
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .containerProfile,
+    .divProfile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subDivProfile {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .NameSubName {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 18px;
+        padding: 10px;
+        flex-direction: column;
+        max-width: auto;
+        background-color: transparent;
+    }
+
+    .NameSubName h1,.NameSubName p {
+        color: var(--text);
+    }
+
+    .divDescription {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .divDescription p {
+        font-size: 20px;
+        position: relative;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .subDivProfile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .divImage {
+        display: flex;
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .NameSubName h1 {
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--text);
+    }
+
+    .NameSubName p {
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--text);
+        text-align: start;
+    }
+}

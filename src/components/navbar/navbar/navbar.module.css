@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: #fcbb6d;
+    color: #2a314d;
+    position: relative;
+    z-index: 1000;
+}
+
+.h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav a {
+    margin: 0 1rem;
+    padding-bottom: 10px;
+    color: #2a314d;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #2a314d;
+    transition: 0.3s ease-in-out;
+}
+
+.nav a:hover::after,
+.nav a.active::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #2a314d;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav li {
+    cursor: pointer;
+    margin: 0 1rem;
+    color: #2a314d;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav li:hover,
+.nav li.active {
+    color: #2a314d;
+}
+
+.nav li:hover::after,
+.nav li.active::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #2a314d;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
+
+.header .nav_btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #2a314d;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+.header .div,
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+    .header .nav_btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .header .nav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: #fcbb6d;
+        transition: 1s ease-in-out;
+    }
+
+    .responsive_navbar {
+        transform: translateY(100vh);
+    }
+
+    .nav .nav_close_btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .nav a {
+        display: flex;
+        font-size: 1.5rem;
+    }
+}

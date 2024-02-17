@@ -1,0 +1,29 @@
+.divKet {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin: 0;
+    background-color: var(--container--background);
+}
+
+.divKet h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.divKet p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    text-align: start;
+}
+
+.stylesp {
+    flex-direction: row;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}
