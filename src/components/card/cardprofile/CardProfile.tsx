@@ -14,7 +14,7 @@ import Modals from '../../modal/Modals'
 import CardSubs from '../cardsubs/CardSubs'
 
 const CardProfile = () => {
-    const namefile = 'http://localhost:5173/cv_ihsan.pdf';
+    const namefile = 'ihsan-fauzi.vercel.app/cv_ihsan.pdf';
     const handleDownload = (url: string) => {
         try {
             const filename = url.split('/').pop();
