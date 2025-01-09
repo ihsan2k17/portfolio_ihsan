@@ -7,7 +7,7 @@ export const Experience = [
             "Pengembangan Aplikasi Kupon, menggunakan Express untuk mengembangkan backend aplikasi kupon, dan React Native untuk merancang dan mengimplementasikan antarmuka pengguna yang responsif",
             "Membuat sistem laporan penjualan mingguan untuk memantau dan menganalisis plan Produksi bulan depan",
             "Menangani perbaikan komputer, printer, dan mesin fotokopi perusahaan",
-            "Memasang dan mengelola kabel jaringan LAN, serta Konfigurasi dan pemeliharaan router, switch, dan hub untuk memastikan konektivitas yang optimal",
+            "Memasang dan mengelola kabel jaringan LAN dan Juga VPN, serta Konfigurasi dan pemeliharaan Mikrotik router, router, switch, dan hub untuk memastikan konektivitas yang optimal",
             "Mengembangkan dan memperbarui fitur atau halaman baru di website naiba.co.id untuk meningkatkan pengalaman pengguna",
             "Menjaga server dan merespons jika ada masalah atau kegagalan, serta Berpartisipasi dalam pemecahan masalah server bersama tim",
             "Memberikan dukungan IT yang melibatkan infrastruktur teknologi di seluruh fasilitas manufaktur",
