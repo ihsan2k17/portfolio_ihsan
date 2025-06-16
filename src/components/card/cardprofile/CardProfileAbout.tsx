@@ -6,26 +6,6 @@ import {motion} from 'framer-motion'
 
 const CardProfileAbout = () => {
     const profileImages = MyProfiles;
-    const namefile = 'https://ihsan-fauzi.vercel.app/Muhammad_Ihsan_Fauzi_CV.pdf';
-    const handleDownload = (url: string) => {
-        try {
-            const filename = url.split('/').pop();
-            if (!filename || filename.trim() === '') {
-                console.error('Invalid filename');
-                return;
-            }
-
-            const gtg = document.createElement('a');
-            gtg.href = url;
-            gtg.setAttribute('download', filename);
-            document.body.appendChild(gtg);
-            gtg.click();
-            gtg.remove();
-        } catch (error) {
-            console.error('Error during download:', error);
-        }
-    }
-
     const handleDownload1 = () => {
         try{
             const url = 'https://ihsan-fauzi.vercel.app/Muhammad_Ihsan_Fauzi_CV.pdf';
