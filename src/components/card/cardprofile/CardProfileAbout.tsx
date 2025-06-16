@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 
 const CardProfileAbout = () => {
     const profileImages = MyProfiles;
-    const namefile = 'http://localhost:5173/cv_ihsan.pdf';
+    const namefile = 'https://ihsan-fauzi.vercel.app/Muhammad_Ihsan_Fauzi_CV.pdf';
     const handleDownload = (url: string) => {
         try {
             const filename = url.split('/').pop();
