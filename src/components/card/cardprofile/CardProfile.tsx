@@ -37,6 +37,22 @@ const CardProfile = () => {
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
+    const handleDownload1 = () => {
+        try {
+            const url = 'https://ihsan-fauzi.vercel.app/Muhammad_Ihsan_Fauzi_CV.pdf';
+            const filename = 'Muhammad_Ihsan_Fauzi_CV.pdf';
+        
+            const a = document.createElement('a');
+            a.href = url;
+            a.setAttribute('download', filename);
+            a.setAttribute('target', '_blank');
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        } catch (error) {
+            console.error('Error during download:', error);
+        }
+    }
 
     return (
         <motion.div className={CardProfileStyle.containerprofile}>
@@ -154,7 +170,7 @@ const CardProfile = () => {
                             untuk mendukung kelancaran dan inovasi dalam penggunaan teknologi di perusahaan
                         </motion.p>
                     </div>
-                    <motion.span onClick={()=> handleDownload(namefile)} className={CardProfileStyle.cardcv}>
+                    <motion.span onClick={()=> handleDownload1()} className={CardProfileStyle.cardcv}>
                         <h1>Download CV</h1>
                         <FaArrowRightFromBracket className={CardProfileStyle.cvlogos} />
                     </motion.span>
