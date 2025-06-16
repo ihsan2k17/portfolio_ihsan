@@ -28,8 +28,8 @@ const CardProfileAbout = () => {
 
     const handleDownload1 = () => {
         try{
-            const url = 'https://ihsan-fauzi.vercel.app/cv_ihsan.pdf';
-            const filename = 'cv_ihsan.pdf';
+            const url = 'https://ihsan-fauzi.vercel.app/Muhammad_Ihsan_Fauzi_CV.pdf';
+            const filename = 'Muhammad_Ihsan_Fauzi_CV.pdf';
         
             const a = document.createElement('a');
             a.href = url;
