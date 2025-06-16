@@ -131,7 +131,7 @@ const CardProfile = () => {
                                 type: "spring",
                                 delay: 0.5, duration: 1
                             }}
-                            className={CardProfileStyle.cardbased}>Im It Specialist on Manufacturing</motion.h1>
+                            className={CardProfileStyle.cardbased}>Im IT Development</motion.h1>
                         <motion.p
                             initial={{ x: 150, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
