@@ -10,7 +10,7 @@ import { AboutCard } from '../../../utils/cardaboutus'
 const CardAboutMe = () => {
     const aboutSlides = AboutCard;
     const tanggalSaatIni = new Date();
-    const tanggalMulaiBekerja = new Date('2021-11-01');
+    const tanggalMulaiBekerja = new Date('2025-05-19');
     const selisihBulan =
         (tanggalSaatIni.getFullYear() - tanggalMulaiBekerja.getFullYear()) *
         12 + tanggalSaatIni.getMonth() - tanggalMulaiBekerja.getMonth();
@@ -45,10 +45,11 @@ const CardAboutMe = () => {
                     }}
                     className="aboutcardAboutUs">
                     <h1>About Me</h1>
-                    <p>Saya seorang IT Officer dengan lebih dari {` ${tahun}`} tahun {bulan > 0 && `${bulan} bulan`} pengalaman.
-                        selama saya disini saya telah belajar banyak hal mulai dari menggunakan
-                        teknologi seperti React, Node.js, dan Microsoft SQL Server, dan pemahaman dasar tentang C# dan C++. Selama perjalanan karier saya,
-                        saya berhasil menciptakan aplikasi Android yang terintegrasi dengan Web API.
+                    <p>Saya seorang IT Development dengan pengalaman lebih dari {` ${tahun}`} tahun {bulan > 0 && `${bulan} bulan`} pengalaman.
+                        Selama bekerja, saya terlibat dalam pengembangan aplikasi berbasis Web Forms, pembuatan Stored Procedure, dan optimasi database dengan indexing. 
+                        Saya juga terbiasa menambahkan fitur seperti export Excel, integrasi Crystal Report, serta melakukan maintenance dan enhancement modul yang sudah berjalan. 
+                        Selain itu, saya terus mengembangkan skill saya di luar pekerjaan, termasuk mempelajari teknologi seperti React, Node.js, dan Microsoft SQL Server, serta pemahaman tentang C#, 
+                        terutama di ASP.Net Web Forms. Selama perjalanan karier saya, saya berhasil menciptakan aplikasi Android yang terintegrasi dengan Web API.
                         Saya menemukan kepuasan dalam menyelesaikan tantangan teknis dan memberikan solusi inovatif. <Link to="/About" className="card__button">Read More</Link>
                     </p>
                 </motion.div>
