@@ -56,9 +56,9 @@ const CardProfileAbout = () => {
                 }}
                 className={aboutStyles.divDescription}>
                 <p>
-                    Halo, saya Ihsan! Seorang profesional berambisi dengan latar belakang dalam teknik informatika
-                    dan saat ini menjabat sebagai IT Staff Officer
-                    di sebuah perusahaan manufaktur pabrik plastik.
+                    Halo, saya Ihsan! Seorang profesional berambisi dengan latar belakang dalam teknik informatika,
+                    dan saat ini menjabat sebagai IT Development
+                    di sebuah perusahaan group dengan anak Perusahaan nya yang bergerak dibidang Koperasi Simpan Pinjam.
                 </p>
                 <span
                     className={aboutStyles.cardCV}
