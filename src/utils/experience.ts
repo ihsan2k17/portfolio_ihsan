@@ -1,9 +1,10 @@
 import ipp from '../assets/images/profile/inpp.png'
 import cps from '../assets/images/profile/cps.png'
+import giga from '../assets/images/profile/GIGA-SENA2-150x150.jpg
 
 export const Experience = [
     {
-        id: 1, company: "Indo Prima Perkasa", title: "Staff IT", masaKerja: `Hingga Saat ini`, masukKerja: '2021-11-01', status:"Karyawan Tetap", jobDesk: [
+        id: 1, company: "Indo Prima Perkasa", title: "Staff IT", masaKerja: `3 Tahun 5 Bulan`, masukKerja: '2021-11-01', status:"Karyawan Tetap", jobDesk: [
             "Pengembangan Aplikasi Kupon, menggunakan Express untuk mengembangkan backend aplikasi kupon, dan React Native untuk merancang dan mengimplementasikan antarmuka pengguna yang responsif",
             "Membuat sistem laporan penjualan mingguan untuk memantau dan menganalisis plan Produksi bulan depan",
             "Menangani perbaikan komputer, printer, dan mesin fotokopi perusahaan",
@@ -24,5 +25,12 @@ export const Experience = [
             "Mengembangkan dan melaksanakan strategi konten yang dioptimalkan untuk mesin pencari",
             "Menganalisis data analitik untuk menyusun laporan tentang kinerja kampanye SEO",
         ], images: cps
+    },
+    {
+        id:3, company: "Giga Sena Group", title: "IT Dvelopment", masaKerja:`Hingga Saat Ini`, masukKerja: '2025-05-19', status: "Karyawan Kontrak", jobDesk: [
+            "Pengembangan & modifikasi Web Forms (ASP.NET) sesuai standar internal",
+            "Penambahan fitur: Export Excel, tampilan filter/view, integrasi Crystal Report",
+            "Pembuatan Stored Procedure & Index untuk efisiensi akses data"
+        ], images: giga
     }
 ]
