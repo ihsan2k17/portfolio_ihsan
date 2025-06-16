@@ -28,16 +28,16 @@ const CardProfileAbout = () => {
 
     const handleDownload1 = () => {
         try{
+            const url = 'https://ihsan-fauzi.vercel.app/cv_ihsan.pdf';
             const filename = 'cv_ihsan.pdf';
-            const url = `/${filename}`; // karena public = root
         
-            const anchor = document.createElement('a');
-            anchor.href = url;
-            anchor.setAttribute('download', filename);
-            anchor.setAttribute('target', '_blank');
-            document.body.appendChild(anchor);
-            anchor.click();
-            document.body.removeChild(anchor);
+            const a = document.createElement('a');
+            a.href = url;
+            a.setAttribute('download', filename);
+            a.setAttribute('target', '_blank');
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
         } catch(error) {
             console.error('Error during download:', error);
         }
