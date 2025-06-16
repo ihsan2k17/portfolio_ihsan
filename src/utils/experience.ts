@@ -1,6 +1,6 @@
 import ipp from '../assets/images/profile/inpp.png'
 import cps from '../assets/images/profile/cps.png'
-import giga from '../assets/images/profile/GIGA-SENA2-150x150.jpg
+import giga from '../assets/images/profile/GIGA-SENA2-150x150.jpg'
 
 export const Experience = [
     {
