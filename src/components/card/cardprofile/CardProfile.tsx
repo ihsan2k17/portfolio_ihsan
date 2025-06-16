@@ -57,9 +57,8 @@ const CardProfile = () => {
                             delay:0.5, duration:1
                         }}
                     >
-                        Sebagai Spesialis IT di perusahaan manufaktur, saya berpengalaman dalam pemeliharaan perangkat keras,
-                        manajemen kabel, dan pengembangan aplikasi. Saya juga berhasil mengekstrak dan memanipulasi data
-                        untuk staf serta mengelola situs web perusahaan di naiba.co.id.
+                        Sebagai IT Development Di perusahaan Koperasi Simpan Pinjam, saya memliki Pengalaman dalam Pengembangan & modifikasi Web Forms,
+                        Penambahan fitur: Export Excel, tampilan filter/view, integrasi Crystal Report 
                     </motion.p>
                     <div className={CardProfileStyle.cardsocmed}>
                         {mediaSocial.map((data) => (
@@ -141,14 +140,13 @@ const CardProfile = () => {
                                 delay: 0.5, duration: 1
                             }}
                         >
-
-                            Saya seorang IT Staff di sebuah Perusahaan Manufaktur.
-                            Peran saya melibatkan pemanfaatan alat-alat canggih untuk menerapkan logika bisnis
-                            melalui berbagai aplikasi perangkat lunak. Saya memiliki pengalaman dalam pengembangan aplikasi,
-                            dengan fokus pada satu proyek sukses sebagai Pengembang Fullstack. Keahlian saya
-                            melibatkan berbagai teknologi, seperti Node.js, Express, TypeScript, dan .NET Core API di sisi backend,
-                            serta React Native dan TypeScript di sisi frontend. Saya juga aktif terlibat dalam aspek-aspek lain dari TI
-                            untuk mendukung kelancaran dan inovasi dalam penggunaan teknologi di perusahaan
+                            Saya seorang IT Development di anak perusahaan Dari Giga Sena Group, dengan fokus pada pengembangan dan perbaikan aplikasi internal berbasis Web Forms. 
+                            Peran saya melibatkan penerapan logika bisnis ke dalam sistem berbasis perangkat lunak, termasuk penambahan fitur baru, 
+                            integrasi Crystal Report, serta optimasi performa aplikasi dan database. Saya memiliki pengalaman dalam mengembangkan 
+                            form baru, memodifikasi sistem yang sudah berjalan, serta membuat Stored Procedure dan Index untuk meningkatkan efisiensi data. Diluar itu
+                            saya juga. pernah terlibat dalam pengembangan aplikasi fullstack dengan menggunakan teknologi seperti Node.js, Express, TypeScript, 
+                            .NET Core API di sisi backend, dan React Native di sisi frontend. di Perusahaan tempat saya bekerja sebelum nya. Saya senang mengeksplorasi solusi teknis 
+                            yang praktis
                         </motion.p>
                     </div>
                     <motion.span onClick={()=> handleDownload1()} className={CardProfileStyle.cardcv}>
