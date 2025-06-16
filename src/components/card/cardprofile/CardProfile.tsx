@@ -14,25 +14,6 @@ import Modals from '../../modal/Modals'
 import CardSubs from '../cardsubs/CardSubs'
 
 const CardProfile = () => {
-    const namefile = 'ihsan-fauzi.vercel.app/cv_ihsan.pdf';
-    const handleDownload = (url: string) => {
-        try {
-            const filename = url.split('/').pop();
-            if (!filename || filename.trim() === '') {
-                console.error('Invalid filename');
-                return;
-            }
-
-            const gtg = document.createElement('a');
-            gtg.href = url;
-            gtg.setAttribute('download', filename);
-            document.body.appendChild(gtg);
-            gtg.click();
-            gtg.remove();
-        } catch (error) {
-            console.error('Error during download:', error);
-        }
-    }
     const [isModalOpen, setIsModalOpen] = useState(false)
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
