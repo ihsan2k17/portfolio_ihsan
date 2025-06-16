@@ -27,21 +27,17 @@ const CardProfileAbout = () => {
     }
 
     const handleDownload1 = () => {
-        const pathname = 'cv_ihsan.pdf'
-        const url = `https://raw.githubusercontent.com/ihsan2k17/portfolio_ihsan/main/public/${pathname}`
         try{
-            const res = await fetch(url);
-            if (!res.ok) throw new Error('File not found');
-
-            const blob = await res.blob();
-            const downloadUrl = URL.createObjectURL(blob);
+            const filename = 'cv_ihsan.pdf';
+            const url = `/${filename}`; // karena public = root
+        
             const anchor = document.createElement('a');
-            anchor.href = downloadUrl;
-            anchor.download = pathname;
+            anchor.href = url;
+            anchor.setAttribute('download', filename);
+            anchor.setAttribute('target', '_blank');
             document.body.appendChild(anchor);
             anchor.click();
             document.body.removeChild(anchor);
-            URL.revokeObjectURL(downloadUrl);
         } catch(error) {
             console.error('Error during download:', error);
         }
