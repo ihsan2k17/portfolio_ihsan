@@ -30,7 +30,7 @@ export const Experience = [
         id:3, company: "Giga Sena Group", title: "IT Dvelopment", masaKerja:`Hingga Saat Ini`, masukKerja: '2025-05-19', status: "Karyawan Kontrak", jobDesk: [
             "Pengembangan & modifikasi Web Forms (ASP.NET) sesuai standar internal",
             "Penambahan fitur: Export Excel, tampilan filter/view, integrasi Crystal Report",
-            "Pembuatan Stored Procedure & Index untuk efisiensi akses data"
+            "Pembuatan Stored Procedure & Index untuk efisiensi akses data, Membuat Web api untuk kemudahan dalam integrasi data"
         ], images: giga
     }
 ]
