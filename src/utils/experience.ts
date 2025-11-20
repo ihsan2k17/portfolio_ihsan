@@ -5,14 +5,12 @@ import giga from '../assets/images/profile/GIGA-SENA2-150x150.jpg'
 export const Experience = [
     {
         id: 1, company: "Indo Prima Perkasa", title: "Staff IT", masaKerja: `3 Tahun 5 Bulan`, masukKerja: '2021-11-01', status:"Karyawan Tetap", jobDesk: [
-            "Pengembangan Aplikasi Kupon, menggunakan Express untuk mengembangkan backend aplikasi kupon, dan React Native untuk merancang dan mengimplementasikan antarmuka pengguna yang responsif",
-            "Membuat sistem laporan penjualan mingguan untuk memantau dan menganalisis plan Produksi bulan depan",
-            "Menangani perbaikan komputer, printer, dan mesin fotokopi perusahaan",
-            "Memasang dan mengelola kabel jaringan LAN dan Juga VPN, serta Konfigurasi dan pemeliharaan Mikrotik router, router, switch, dan hub untuk memastikan konektivitas yang optimal",
-            "Mengembangkan dan memperbarui fitur atau halaman baru di website naiba.co.id untuk meningkatkan pengalaman pengguna",
-            "Menjaga server dan merespons jika ada masalah atau kegagalan, serta Berpartisipasi dalam pemecahan masalah server bersama tim",
-            "Memberikan dukungan IT yang melibatkan infrastruktur teknologi di seluruh fasilitas manufaktur",
-            "Menanggapi dan menyelesaikan masalah IT yang muncul di lingkungan manufaktur"
+            "Melakukan maintenance, troubleshooting, dan backup pada server",
+            "Mengelola dan memelihara website Naiba.co.id berbasis CMS Joomla",
+            "Mengembangkan aplikasi Android/iOS menggunakan .NET Core 5 Web API, Node.js Express (TypeScript), dan React Native.",
+            "Mengembangkan serta memelihara aplikasi ERP internal menggunakan VB6.",
+            "Merancang jaringan VPN tunneling (PPTP & L2TP) serta menangani berbagai masalah jaringan lokal.",
+            "Melakukan analisis data dan integrasi laporan ke dalam format PDF menggunakan Crystal Reports"
         ], images: ipp
     },
     {
@@ -23,14 +21,17 @@ export const Experience = [
             "implementasi SEO on-page",
             "Memantau dan mengevaluasi performa backlink serta melakukan strategi pembangunan tautan",
             "Mengembangkan dan melaksanakan strategi konten yang dioptimalkan untuk mesin pencari",
-            "Menganalisis data analitik untuk menyusun laporan tentang kinerja kampanye SEO",
+            "Menganalisis data analitik untuk menyusun laporan tentang kinerja kampanye SEO"
         ], images: cps
     },
     {
         id:3, company: "Giga Sena Group", title: "IT Dvelopment", masaKerja:`Hingga Saat Ini`, masukKerja: '2025-05-19', status: "Karyawan Kontrak", jobDesk: [
-            "Pengembangan & modifikasi Web Forms (ASP.NET) sesuai standar internal",
+            "Pengembangan & modifikasi Web Forms (ASP.NET) sesuai standar internal ",
             "Penambahan fitur: Export Excel, tampilan filter/view, integrasi Crystal Report",
-            "Pembuatan Stored Procedure & Index untuk efisiensi akses data", "Membuat Web api untuk kemudahan dalam integrasi data"
+            "Pembuatan Stored Procedure & Index untuk efisiensi akses data", "Membuat Web api untuk kemudahan dalam integrasi data",
+            "Pembuatan web api dengan dotnet 8, untuk aplikasi HR, dan juga Anggota baru dari koperasi",
+            "Membuat atau memperbarui manual book sesuai dengan proyek yang telah diselesaikan"
         ], images: giga
     }
 ]
+
